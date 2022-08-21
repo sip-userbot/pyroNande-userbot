@@ -1,12 +1,12 @@
 #!/bin/bash
 # Credits: @mrismanaziz
-# Copyright (C) 2022 Alcii
+# Copyright (C) 2022 Nande
 #
-# This file is a part of < https://github.com/aldiboyy/PyroAlcii-Userbot/ >
+# This file is a part of < https://github.com/sip-Userbot/pyroNande-Userbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/aldiboyy/PyroAlcii-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/sip-Userbot/pyroNande-Userbot/blob/main/LICENSE/>.
 #
-# t.me/alxelsupport & t.me/soasiklo69
+# t.me/suportsipuserbot & t.me/alimbanget_2
 
 # start
 python3 -m WhyzuProject
