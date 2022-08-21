@@ -43,9 +43,9 @@ async def shutdown_bot(client: Client, message: Message):
         await client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**PyroNande** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**pyroNande-userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(message, "**PyroNande Berhasil di matikan!**")
+    await edit_or_reply(message, "**pyroNande-userbot Berhasil di matikan!**")
     if HAPP is not None:
         HAPP.process_formation()["worker"].scale(0)
     else:
