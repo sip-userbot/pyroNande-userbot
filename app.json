@@ -1,6 +1,6 @@
 {
-  "name": "Pyro-Nande",
-  "description": "[Pyro-Nande] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "name": "pyroNande-userbot",
+  "description": "[pyroNande-userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
