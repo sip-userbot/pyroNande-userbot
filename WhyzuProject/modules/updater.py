@@ -8,7 +8,7 @@
 # All rights reserved.
 #
 # Ported by @mrismanaziz
-# FROM PyroNandee-Userbot < https://github.com/sip-Userbot/PyroNande/ >
+# FROM PyroNandee-Userbot < https://github.com/sip-Userbot/pyroNande-userbot/ >
 # t.me/Lunatic0de & t.me/SharingUserbot
 #
 
@@ -188,7 +188,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`PyroNande Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
+            "`pyroNande-userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
         )
     else:
         try:
@@ -197,7 +197,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`PyroNande Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
+            "`pyroNande-userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
         )
         args = [sys.executable, "-m", "WhyzuProject"]
         execle(sys.executable, *args, environ)
@@ -266,7 +266,7 @@ async def updaterman(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "Untuk melihat list pembaruan terbaru dari PyroNande."],
+        ["update", "Untuk melihat list pembaruan terbaru dari pyroNande-userbot."],
         ["update deploy", "Untuk mengupdate userbot."],
     ],
 )
