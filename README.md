@@ -25,3 +25,4 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 👨🏻‍💻 Credits
 -  [AL](https://github.com/aldiboyy)
 -  [sip](https://github.com/sip-Userbot)
+-  [Risman](https://github.com/mrismanaziz)
