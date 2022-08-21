@@ -1,9 +1,9 @@
 # Credits: @mrismanaziz
 # Copyright (C) 2022 Pyro-ManUserbot
 #
-# This file is a part of < https://github.com/sip-Userbot/Pyro-Nande/ >
+# This file is a part of < https://github.com/sip-Userbot/pyroNande-userbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/sip-Userbot/Pyro-Nande/blob/main/LICENSE/>.
+# <https://www.github.com/sip-Userbot/pyroNande-userbot/blob/main/LICENSE/>.
 #
 # t.me/suportsipuserbot & t.me/alimbanget_2
 
