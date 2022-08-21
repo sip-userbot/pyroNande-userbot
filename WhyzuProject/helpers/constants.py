@@ -11,7 +11,7 @@
 class First:
     ALIVE = "`Still Working On Fire 🔥`"
     REPO = """
-**Hey**, __I am using__ 🔥 **Pyro-Nande** 🔥
+**Hey**, __I am using__ 🔥 **pyroNande-userbot** 🔥
 
       __Thanks For Using me__
 
@@ -19,10 +19,10 @@ class First:
 ✣ **Group Support :** [Nande-UserBot](t.me/suportsipuserbot)
 ✣ **Channel :** [project Nandee](t.me/alimbanget_2)
 ✣ **Owner Repo :** [kly](t.me/Klyuserbot)
-✣ **Repo :** [PyroAlcii-Userbot](https://github.com/sip-Userbot/Pyro-Nande)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/sip-Userbot/Pyro-Nande">sip</a> on a rainy day.'
+✣ **Repo :** [pyroNande-Userbot](https://github.com/sip-Userbot/pyroNande-userbot)"""
+    CREATOR = 'I was created by my master <a href="https://github.com/sip-Userbot/pyroNande-userbot">sip</a> on a rainy day.'
     MSG_ON = """
-🔥 **Pyro-Nande Berhasil Di Aktifkan**
+🔥 **pyroNande-userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
