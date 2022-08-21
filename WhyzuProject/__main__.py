@@ -18,7 +18,7 @@ from WhyzuProject.helpers.misc import heroku
 from WhyzuProject.modules import ALL_MODULES
 
 MSG_ON = """
-🔥 **PyroNande Berhasil Di Aktifkan**
+🔥 **pyroNande-userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -42,7 +42,7 @@ async def main():
         except Exception as a:
             LOGGER("main").warning(a)
     LOGGER("WhyzuProject").info(
-        f"PyroAlci-UserBot v{BOT_VER} [💢 BERHASIL DIAKTIFKAN! 💢]"
+        f"pyroNande-UserBot v{BOT_VER} [💢 BERHASIL DIAKTIFKAN! 💢]"
     )
     await idle()
     await aiosession.close()
