@@ -1,0 +1,12 @@
+#!/bin/bash
+# Credits: @mrismanaziz
+# Copyright (C) 2022 Alcii
+#
+# This file is a part of < https://github.com/aldiboyy/PyroAlcii-Userbot/ >
+# PLease read the GNU Affero General Public License in
+# <https://www.github.com/aldiboyy/PyroAlcii-Userbot/blob/main/LICENSE/>.
+#
+# t.me/alxelsupport & t.me/soasiklo69
+
+# start
+python3 -m WhyzuProject
