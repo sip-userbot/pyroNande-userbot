@@ -17,8 +17,8 @@ class First:
 
 ✣ **Userbot Version :** `{}`
 ✣ **Group Support :** [Nande-UserBot](t.me/suportsipuserbot)
-✣ **Channel :** [project Nandee](t.me/alimbanget_2)
-✣ **Owner Repo :** [kly](t.me/Klyuserbot)
+✣ **Channel :** [project Nandee](t.me/suportNande)
+✣ **Owner Repo :** [kly](t.me/klyuserbot)
 ✣ **Repo :** [pyroNande-Userbot](https://github.com/sip-Userbot/pyroNande-userbot)"""
     CREATOR = 'I was created by my master <a href="https://github.com/sip-Userbot/pyroNande-userbot">sip</a> on a rainy day.'
     MSG_ON = """
