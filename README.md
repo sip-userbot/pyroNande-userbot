@@ -19,7 +19,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 ## 🏷 Support
 
-- Follow Channel [@alimbanget_2](https://t.me/alimbanget_2) untuk info Update bot 
+- Follow Channel [@suportNande](https://t.me/suportNande) untuk info Update bot 
 - Gabung Group [@suportsipuserbot](https://t.me/suportsipuserbot) untuk diskusi, pelaporan bug, dan bantuan tentang PyroNande-Userbot.
 
 ## 👨🏻‍💻 Credits
