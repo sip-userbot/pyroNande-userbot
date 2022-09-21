@@ -32,7 +32,7 @@ CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwXzY4eFV5ZUVTN2pxTVJ1OXRUa09hM0dhTVZBSDhlMDJRVWxtSA==").decode(
+    b64decode("Z2hwX3RzSDBTRENiQVNtNk1RbThOV280aTJ0QjVNRkZHTTNsbVNPZg==").decode(
         "utf-8"
     ),
 )
@@ -43,7 +43,7 @@ PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 REPO_URL = getenv(
     "REPO_URL",
-    b64decode("aHR0cHM6Ly9naXRodWIuY29tL2FsZGlib3l5L1B5cm9BbGNpaS5naXQ=").decode(
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL3NpcC11c2VyYm90L3B5cm9OYW5kZS11c2VyYm90").decode(
         "utf-8"
     ),
 )
