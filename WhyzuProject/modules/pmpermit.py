@@ -19,18 +19,18 @@ from WhyzuProject import TEMP_SETTINGS
 from .help import *
 
 DEF_UNAPPROVED_MSG = (
-    "╔════════════════════╗\n"
-    "     ⛑ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⛑\n"
-    "╚════════════════════╝\n"
-    "• Saya belum menyetujui anda untuk PM.\n"
-    "• Tunggu sampai saya menyetujui PM anda.\n"
-    "• Jangan Spam Chat atau anda akan otomatis diblokir.\n"
-    "• Btw Subs CH Owner Repo Lah @alimbanget_2.\n"
-    "╔════════════════════╗\n"
-    "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 -𝗨𝘀𝗲𝗿𝗕𝗼𝘁\n"
-    "╚════════════════════╝\n"
+    "⚠️ 𝗪𝗮𝗿𝗻𝗶𝗻𝗴 𝗳𝗼𝗿 𝘆𝗼𝘂 ⚠️!\n"
+    "• Saya belum menyetujui anda untuk Cht.\n"
+    "• Tunggu sampai sy menyetujui chat anda.\n"
+    "• Jangan Spam Chat atau anda akan otomatis di blokir.\n"
+    "┌━━━━━━━━━━━━\n"
+    "├❏ 𝐏𝐞𝐬𝐚𝐧 𝐨𝐭𝐨𝐦𝐚𝐭𝐢𝐬 𝐁𝐲 Nande-𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n"
+    "└━━━━━━━━━━━━\n"
 )
 
+
+SqL.getdb("add_pm_text") or ""
+pmpicc = SqL.getdb("add_pm_thumb") or https://telegra.ph/file/fa34c7c1016aae47a6354.jpg
 
 @Client.on_message(
     ~filters.me & filters.private & ~filters.bot & filters.incoming, group=69
