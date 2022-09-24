@@ -29,9 +29,6 @@ DEF_UNAPPROVED_MSG = (
 )
 
 
-SqL.getdb("add_pm_text") or ""
-pmpicc = SqL.getdb("add_pm_thumb") or https://telegra.ph/file/fa34c7c1016aae47a6354.jpg
-
 @Client.on_message(
     ~filters.me & filters.private & ~filters.bot & filters.incoming, group=69
 )
