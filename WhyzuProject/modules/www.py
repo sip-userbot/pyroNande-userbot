@@ -72,17 +72,19 @@ async def nearest_dc(client: Client, message: Message):
 async def pingme(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(message, "8✊===D")
-    await xx.edit("8=✊==D")
-    await xx.edit("8==✊=D")
-    await xx.edit("8===✊D")
+    xx = await edit_or_reply(message, "✫")
+    await xx.edit("**✫✫**")
+    await xx.edit("**✫✫✫**")
+    await xx.edit("**✫✫✫✫**")
+    await xx.edit("__Sedang Memuat.__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
-        f"❏ **PONG!!🏓**\n"
-        f"├• **Pinger** - `%sms`\n"
-        f"├• **Uptime -** `{uptime}` \n"
-        f"└• **Owner :** {client.me.mention}" % (duration)
+        f"**✨Nande-Userbot✨**\n"
+        f"➾ __Signal__    __:__ "
+        f"`%sms` \n"
+        f"➾ __Uptime__ __:__ "
+        f"`{uptime}` \n" % (duration)
     )
 
 
