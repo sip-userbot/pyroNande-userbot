@@ -1,4 +1,5 @@
-#
+
+# 
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
@@ -6,12 +7,12 @@
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
-
 import asyncio
 import shlex
 import socket
 from typing import Tuple
 
+import dotenv
 import heroku3
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
@@ -115,3 +116,28 @@ def heroku():
                 LOGGER("Heroku").info(
                     f"Pastikan HEROKU_API_KEY dan HEROKU_APP_NAME anda dikonfigurasi dengan benar di config vars heroku."
                 )
+
+
+async def in_heroku():
+    return "heroku" in socket.getfqdn()
+
+
+async def create_botlog(client):
+    if HAPP is None:
+        return
+    LOGGER("WhyzuProject").info(
+        "TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA"
+    )
+    desc = "Group Log untuk PyroNande-Userbot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n✨ Powered By ~ @Nandesupport ✨"
+    try:
+        gruplog = await client.create_supergroup("Log UserBot", desc)
+        if await in_heroku():
+            heroku_var = HAPP.config()
+            heroku_var["BOTLOG_CHATID"] = gruplog.id
+        else:
+            path = dotenv.find_dotenv("config.env")
+            dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
+    except Exception:
+        LOGGER("WhyzuProject").warning(
+            "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @MissRose_bot lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
+        )
