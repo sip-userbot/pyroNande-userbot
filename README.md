@@ -1,4 +1,4 @@
-# ♤Pyro-Nandee♤
+# ♤PyroNandee-userbot♤
 <img src="https://telegra.ph/file/4fdd9a7eba551b9834d18.jpg">
 
 PyroNandee-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.
