@@ -15,12 +15,12 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ```
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/sip-Userbot/pyroNande-userbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/sip-Userbot/pyro-Nande"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 ## 🏷 Support
 
-- Follow Channel [@suportNande](https://t.me/suportNande) untuk info Update bot 
-- Gabung Group [@suportsipuserbot](https://t.me/suportsipuserbot) untuk diskusi, pelaporan bug, dan bantuan tentang PyroNande-Userbot.
+- Follow Channel [suportNande](https://t.me/suportNande) untuk info Update bot 
+- Gabung Group [Nandesupport](https://t.me/Nandesupport) untuk diskusi, pelaporan bug, dan bantuan tentang PyroNande-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [AL](https://github.com/aldiboyy)
